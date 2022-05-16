@@ -221,32 +221,21 @@ padding-bottom: 26px;
 position: absolute;
 width: 336px;
 height: 70px;
-
-
-
-
-
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  /* border: 1px solid var(); */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.14em;
+background-color: #ffff;
+cursor: pointer;
+border: 2px solid #FF6B09; 
+font-family: inherit;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+text-transform: uppercase;
+color: #FF6B09;  
   &:hover,
   &:focus {
-    background-color: var(--hero-btm-focus);
+    box-shadow: -5px 21px 26px 0px #0000000A;
   }
-}
 }
