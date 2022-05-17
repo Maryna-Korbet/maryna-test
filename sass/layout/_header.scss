@@ -32,7 +32,7 @@
 }
 
 .mobile-menu-button__icon {
-  fill: var(--logo-black-color);
+  fill: red;
 }
 
 .mobile-menu-button:focus .mobile-menu-button__icon,
@@ -190,7 +190,7 @@
     color: var(--primary-white-color);
   }*/
 
-  .nav-buttom {
+  .nav-button {
     width: 336px;
     height: 70px;
     display: flex;
@@ -228,7 +228,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
-    text-transform: uppercase;
+    text-transform: capitalize;
     &:hover,
     &:focus {
       color: #ff6b09;
